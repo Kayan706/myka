@@ -16,44 +16,30 @@ class App extends React.Component {
         {
           id: 1,
           img: "flour.png",
-          title: "Мука",
+          title: "МУКА",
           about: 'Мука шеничная хлебопекарная. \n Первый сорт \n ГОСТ 26574 - 2017',
-          price: "999.99 ₽"
+          price: "23₽/кг"
         },
         {
           id: 2,
           img: "flour.png",
-          title: 'Мука \n"ЭЛИТ"',
+          title: 'МУКА \n"ЭЛИТ"',
           about: "Мука шеничная хлебопекарная. \n Высший сорт \n ГОСТ 26574 - 2017",
-          price: "999.99 ₽"
+          price: "26/кг ₽"
         },
         {
           id: 3,
           img: "flour.png",
-          title: 'Мука \n "ОРЕНБУРЖЬЯ НИВА"',
+          title: 'МУКА \n "ОРЕНБУРЖЬЯ НИВА"',
           about: "Мука шеничная хлебопекарная. \n Высший сорт \n ГОСТ 26574 - 2017",
-          price: "999.99 ₽"
-        },
-        {
-          id: 4,
-          img: "flour.png",
-          title: "МУКА",
-          about: "ВКУСНО И ТОЧКА",
-          price: "999.99 ₽"
-        },
-        {
-          id: 5,
-          img: "flour.png",
-          title: "МУКА",
-          about: "ВКУСНО И ТОЧКА",
-          price: "999.99 ₽"
+          price: "28.50₽/кг"
         },
         {
           id: 6,
           img: "suga.png",
           title: "САХАР",
-          about: "ВКУСНО И ТОЧКА",
-          price: "999.99 ₽"
+          about: "ГОСТ 33222 - 2015",
+          price: "66.50₽/кг"
         },
 
       ]
