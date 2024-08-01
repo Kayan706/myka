@@ -201,15 +201,22 @@ footer{
 
 
 .shopCart{
-  width: 200px;
-  height: 300px;
+  width: 250px;
+  height: 330px;
   background-color: #1E2227;
   border-radius: 10px;
   border: 2px solid #F36423;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 20px;
+  transition: transform 1000ms ease;
 }
+
+.shopCart:hover{
+  transform: scale(1.3);
+}
+
 .shop{
   display: flex;
   align-items: center;
@@ -228,3 +235,22 @@ footer{
   flex-wrap: wrap;
 }
 
+.shopCart img {
+  padding: 20px;
+  width: 50%;
+
+}
+
+.shopCart h2{
+  padding: 20px;
+}
+
+.shopCart p{
+
+}
+
+.shopCart b{
+  padding: 10px;
+
+
+}

@@ -1,27 +1,21 @@
-import React from 'react'
-import ShopCart from './ShopCart'
+import React, { Component } from 'react'
+import Item from './Item'
 
-
-
-export default function Products() {
-  return (
-    <section className='product'>
-        <div className='producthead'>
+export class Products extends Component {
+  render() {
+    return (
+      <section className='product'>
+      <div className='producthead'>
             <h2>ПРОДУКЦИЯ</h2>
         </div>
-        <div className='shop'> 
-          <div className='position'>
-            <ShopCart/>
-            <ShopCart/>
-            <ShopCart/>
-            <ShopCart/>
-            <ShopCart/>
-            <ShopCart/>
-            <ShopCart/>
-            <ShopCart/>
-          </div>
-        </div>
-        
-    </section>
-  )
+      <main className='position'>
+        {this.props.items.map(el => (
+          <Item key={el.id} item={el} />
+        ))}
+      </main>
+      </section>
+    )
+  }
 }
+
+export default Products
