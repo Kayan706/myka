@@ -16,44 +16,44 @@ class App extends React.Component {
         {
           id: 1,
           img: "flour.png",
-          title: "САХАР",
-          about: "ВКУСНО И ТОЧКА",
-          price: "999.99"
+          title: "Мука",
+          about: 'Мука шеничная хлебопекарная. \n Первый сорт \n ГОСТ 26574 - 2017',
+          price: "999.99 ₽"
         },
         {
           id: 2,
           img: "flour.png",
-          title: "САХАР",
-          about: "ВКУСНО И ТОЧКА",
-          price: "999.99"
+          title: 'Мука \n"ЭЛИТ"',
+          about: "Мука шеничная хлебопекарная. \n Высший сорт \n ГОСТ 26574 - 2017",
+          price: "999.99 ₽"
         },
         {
           id: 3,
-          img: "suga.png",
-          title: "МУКА",
-          about: "ВКУСНО И ТОЧКА",
-          price: "999.99"
+          img: "flour.png",
+          title: 'Мука \n "ОРЕНБУРЖЬЯ НИВА"',
+          about: "Мука шеничная хлебопекарная. \n Высший сорт \n ГОСТ 26574 - 2017",
+          price: "999.99 ₽"
         },
         {
           id: 4,
-          img: "suga.png",
+          img: "flour.png",
           title: "МУКА",
           about: "ВКУСНО И ТОЧКА",
-          price: "999.99"
+          price: "999.99 ₽"
         },
         {
           id: 5,
-          img: "suga.png",
+          img: "flour.png",
           title: "МУКА",
           about: "ВКУСНО И ТОЧКА",
-          price: "999.99"
+          price: "999.99 ₽"
         },
         {
           id: 6,
           img: "suga.png",
           title: "САХАР",
           about: "ВКУСНО И ТОЧКА",
-          price: "999.99"
+          price: "999.99 ₽"
         },
 
       ]
