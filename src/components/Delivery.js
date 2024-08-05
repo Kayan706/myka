@@ -3,7 +3,7 @@ import car from './img/car.png'
 
 export default function Delivery() {
   return (
-    <section className='delivery'>
+    <section id='delivery' className='delivery'>
         <div className='deliveryhead'>
             <h2>ДОСТАВКА</h2>
         </div>

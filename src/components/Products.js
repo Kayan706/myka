@@ -4,7 +4,7 @@ import Item from './Item'
 export class Products extends Component {
   render() {
     return (
-      <section className='product'>
+      <section id='product' className='product'>
       <div className='producthead'>
             <h2>ПРОДУКЦИЯ</h2>
         </div>

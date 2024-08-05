@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Card() {
   return (
-    <section className='card'>
+    <section id='card' className='card'>
         <h2 className='cardh2'>КАРТОЧКА УЧЕТА ОСНОВНЫХ СВЕДЕНИЙ <br/> ООО «ТД МТК»</h2>
         <table className='table'>
             <tr>
