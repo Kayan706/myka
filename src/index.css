@@ -22,7 +22,7 @@ header{
   justify-content: center;
   flex-direction: column;
   border-bottom: 2px solid #F36423 ;
-  align-items: center;
+  
   z-index: 3;
   
   
@@ -226,7 +226,8 @@ footer{
   height: 100px;
   background-color: #1E2227;
   border-top: 2px  solid #F36423 ;
-  
+  display: flex;
+  justify-content: center;
 
 }
 
@@ -309,6 +310,31 @@ footer{
 }
 
 
+.footertext{
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact{
+  
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.contact a {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
 
 @media (max-width: 1576px){
   .deliveryinfo{
@@ -336,6 +362,7 @@ footer{
 @media (max-width: 992px){
   .header__menu-button{
     display: flex;
+    margin: 0 25px;
   }
   .header__nav{
     
@@ -435,6 +462,12 @@ footer{
   .deliveryinfotext {
     margin: 0;
   }
+  .footertext{
+    font-size: 15px;
+  }
+  .cardh2{
+    font-size: 30px;
+  }
 }
 
 @media (max-width: 320px){
@@ -477,6 +510,11 @@ footer{
   }
   .table td{
     font-size: 12px;
+  }
+  .footertext{
+    width: 100%;
+    font-size: 12px;
+    gap: 10px;
   }
 }
 
