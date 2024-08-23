@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.27bddf74.css",
+    "main.js": "/static/js/main.b789bb86.js",
+    "static/media/bg4.png": "/static/media/bg4.9b59d618b065c0e12ead.png",
+    "static/media/delivery.png": "/static/media/delivery.32bb2a9d9c78695d602b.png",
+    "static/media/bg8.jpg": "/static/media/bg8.12b2df324e1a338f5251.jpg",
+    "static/media/productheadbg.png": "/static/media/productheadbg.a6a0a26f0a24e9bd1236.png",
+    "static/media/car.png": "/static/media/car.9dfaeb62cc270333bb6d.png",
+    "static/media/logo.png": "/static/media/logo.960bb937b1942e556963.png",
+    "index.html": "/index.html",
+    "main.27bddf74.css.map": "/static/css/main.27bddf74.css.map",
+    "main.b789bb86.js.map": "/static/js/main.b789bb86.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27bddf74.css",
+    "static/js/main.b789bb86.js"
+  ]
+}
